@@ -1,0 +1,19 @@
+{
+  "name": "dossier-sans-titre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nav.js",
+  "scripts": {
+    "css:less": "lessc test-card.less test-card.css",
+    "pug": "pug -w ./test-card.pug ./test-card.html"
+  },
+  "author": "Skander ZAHI <zahiskander@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^4.1.2"
+  },
+  "dependencies": {
+    "pug": "^3.0.2",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}
